@@ -30,7 +30,7 @@ import pynvml
 import wmi
 
 pynvml.nvmlInit()
-handle = pynvml.nvmlDeviceGetHandleByIndex(0) # 0表示第一块显卡
+handle = pynvml.nvmlDeviceGetHandleByIndex(0) # 0表示第一块显卡1
 meminfo = pynvml.nvmlDeviceGetMemoryInfo(handle)
 
 
